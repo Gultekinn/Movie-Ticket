@@ -24,5 +24,5 @@ MongoDB və Mongoose: Film məlumatları və istifadəçi məlumatlarını saxla
 
 İstifadəçi Girişi və Qeydiyyat: JWT (JSON Web Token) ilə təhlükəsiz giriş və qeydiyyat əməliyyatları.
 
-Film İdarəetməsi: Admin paneli vasitəsilə CRUD əməliyyatları (Yarat, Oxu, Yenilə, Sil) həyata keçirilə bilər.
+Film İdarəetməsi: Admin paneli vasitəsilə CRUD əməliyyatları (Get , Post, Edit, Delete) həyata keçirilə bilər.
 

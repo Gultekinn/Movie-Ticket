@@ -1,28 +1,68 @@
-Movie Ticket
+# 🎬 Movie Ticket
 
-Bu layihə, istifadəçilərin kinoteatr biletlərini almasına imkan verən bir veb tətbiqidir. İstifadəçilər filmlər haqqında ətraflı məlumat əldə edə bilər, axtarış və filtrləmə funksiyalarından istifadə edə bilər və bilet ala bilərlər. Admin paneli vasitəsilə filmlər və istifadəçilər idarə edilə bilər. Backend hissəsi Node.js, Express və MongoDB ilə yazılmışdır. Frontend hissəsi isə React və SCSS istifadə edilərək responsiv şəkildə hazırlanmışdır.
+A full-stack web application that lets users browse movies, search and filter by genre or date, and book cinema tickets online. Admins can manage the movie catalog through a dedicated admin panel.
 
-Frontend:
+Built with the **MERN**-style stack: **React** on the frontend and **Node.js / Express / MongoDB** on the backend.
 
-Tam Responsiv Dizayn: Mobil, planşet və masaüstü cihazlarla uyğun olan, istifadəçi dostu interfeys.
+---
 
-Axtarış və Filtrləmə Funksiyaları: Filmləri tarixə, janra və digər meyarlara görə axtara və filtrləyə bilərsiniz.
+## ✨ Features
 
-Detallar Səhifəsi: Hər film haqqında ətraflı məlumat əldə etmək mümkündür.
+### Frontend (`/client`)
+- 📱 **Fully responsive design** — works smoothly on mobile, tablet, and desktop
+- 🔍 **Search & filtering** — find movies by title, date, genre, and other criteria
+- 🎞️ **Movie details page** — detailed information for every movie
+- 🔐 **User authentication** — sign up and log in to your account
+- 🛠️ **Admin panel** — manage movies directly from the UI (Create, Read, Update, Delete)
 
-İstifadəçi Girişi/Qeydiyyat: İstifadəçilər öz hesablarına daxil ola bilər və ya yeni hesab yarada bilərlər.
+### Backend (`/server`)
+- ⚙️ **REST API** built with Node.js and Express
+- 🗄️ **MongoDB + Mongoose** for storing movie and user data
+- 🔑 **JWT authentication** for secure login and registration
+- 🎬 **Movie management endpoints** — full CRUD (Create, Read, Update, Delete) for movies
 
-Admin Paneli: Admin istifadəçiləri filmləri idarə edə bilər (CRUD əməliyyatları).
+---
 
-Film CRUD Əməliyyatları: Admin filmləri əlavə edə, redaktə edə və ya silə bilər.
+## 🧰 Tech Stack
 
-Backend:
+| Layer      | Technologies |
+|------------|--------------|
+| Frontend   | React, SCSS, CSS, HTML |
+| Backend    | Node.js, Express.js |
+| Database   | MongoDB, Mongoose |
+| Auth       | JSON Web Token (JWT) |
 
-Node.js və Express: API yaradılması və server tərəfi əməliyyatları üçün istifadə olunub.
+---
 
-MongoDB və Mongoose: Film məlumatları və istifadəçi məlumatlarını saxlamaq üçün MongoDB verilənlər bazası istifadə edilmişdir.
+## 📂 Project Structure
 
-İstifadəçi Girişi və Qeydiyyat: JWT (JSON Web Token) ilə təhlükəsiz giriş və qeydiyyat əməliyyatları.
+```
+Movie-Ticket/
+├── client/     # React frontend
+├── server/     # Node.js / Express backend
+└── README.md
+```
 
-Film İdarəetməsi: Admin paneli vasitəsilə CRUD əməliyyatları (Get , Post, Edit, Delete) həyata keçirilə bilər.
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+---
+
+## 📄 License
+
+This project currently has no license specified. Feel free to reach out to the repository owner if you'd like to use it.
+
+---
+
+## 👤 Author
+
+**Gultekinn** — [GitHub Profile](https://github.com/Gultekinn)
 
